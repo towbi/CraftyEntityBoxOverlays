@@ -75,11 +75,11 @@ Crafty.c("BoxOverlays", {
                 
                 // box with rotation applied
                 if (bo.drawRot) {
-                    var deg = this.rotation * (Math.PI / 180);
-                    var cosDeg = Math.cos(deg);
-                    var sinDeg = Math.sin(deg);
-                    var x = this.x + this._origin.x + cosDeg * (-this._origin.x) - sinDeg * (-this._origin.y);
-                    var y = this.y + this._origin.y + sinDeg * (-this._origin.x) + cosDeg * (-this._origin.y);
+                    var rad = this.rotation * (Math.PI / 180);
+                    var cosRad = Math.cos(rad);
+                    var sinRad = Math.sin(rad);
+                    var x = this.x + this._origin.x + cosRad * (-this._origin.x) - sinRad * (-this._origin.y);
+                    var y = this.y + this._origin.y + sinRad * (-this._origin.x) + cosRad * (-this._origin.y);
                     
                     ctx.fillStyle = bo.rotBoxColor;
                     ctx.strokeStyle = bo.rotBoxColor;
@@ -93,7 +93,7 @@ Crafty.c("BoxOverlays", {
                         ctx.save();
                         ctx.strokeStyle = bo.rotBoxColor;
                         ctx.translate(this.x + this._origin.x, this.y + this._origin.y);
-                        ctx.rotate(deg);
+                        ctx.rotate(rad);
                         ctx.strokeRect(-this._origin.x, -this._origin.y, this.w, this.h);
                         ctx.restore();
                     }
