@@ -1,0 +1,31 @@
+{
+    "name": "BoxOverlays",
+    "version": "0.5",
+    "title": "Display entity box overlays",
+    "author": {
+        "name": "Tobias Nissen",
+        "url": "https://github.com/towbi"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        }
+    ],
+    "dependencies": {
+        "Crafty": ">0.4"
+    },
+    "description": "BoxOverlays for Crafty entities",
+    "keywords": [
+        "overlay",
+        "rotation",
+        "rotated",
+        "mbr",
+        "bounding",
+    ],
+    "homepage": "https://github.com/towbi/CraftyEntityBoxOverlays",
+    "files": [
+        "boxoverlays.js"
+    ]
+}
+
