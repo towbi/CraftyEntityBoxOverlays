@@ -4,7 +4,7 @@
     "title": "Display entity box overlays",
     "author": {
         "name": "Tobias Nissen",
-        "url": "https://github.com/towbi"
+        "url": "http://www.naymspace.de"
     },
     "licenses": [
         {
@@ -21,7 +21,7 @@
         "rotation",
         "rotated",
         "mbr",
-        "bounding",
+        "bounding"
     ],
     "homepage": "https://github.com/towbi/CraftyEntityBoxOverlays",
     "files": [
