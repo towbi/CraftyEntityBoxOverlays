@@ -31,13 +31,13 @@ Crafty.c("BoxOverlays", {
             bo.markTopLeft = true;
             
             function formatCoords(x, y, w, h) {
-                var formatString = "x:%d, y:%d";
+                var string = "x:"+Math.round(x)+", y:"+Math.round(y);
                 
                 if (typeof(w) != "undefined" && typeof(h) != "undefined") {
-                    formatString += ", w:%d, h:%d";
+                    string += ", w:"+Math.round(w)+", h:"+Math.round(h);
                 }
                 
-                return _.string.sprintf(formatString, x, y, w, h);
+                return string;
             }
             
             // get or create canvas element
