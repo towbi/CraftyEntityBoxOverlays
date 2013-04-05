@@ -10,7 +10,7 @@ By default three boxes are shown:
 2. default entity coordinates and width/height with rotation applied
 3. minimum bounding rectangle of the rotated entity
 
-See <http://jsfiddle.net/At2vq/3/> for a demonstration.
+See <http://jsfiddle.net/At2vq/5/> for a demonstration.
 
 Author
 ======
