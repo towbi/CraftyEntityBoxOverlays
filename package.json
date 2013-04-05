@@ -15,7 +15,7 @@
     "dependencies": {
         "Crafty": ">0.4"
     },
-    "description": "BoxOverlays for Crafty entities",
+    "description": "Box overlays for Crafty entities visualize the effects of entity rotation.",
     "keywords": [
         "overlay",
         "rotation",
