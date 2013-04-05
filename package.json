@@ -3,7 +3,7 @@
     "version": "0.5",
     "title": "Display entity box overlays",
     "author": {
-        "name": "Tobias Nissen",
+        "name": "naymspace software",
         "url": "http://www.naymspace.de"
     },
     "licenses": [
@@ -24,6 +24,7 @@
         "bounding"
     ],
     "homepage": "https://github.com/towbi/CraftyEntityBoxOverlays",
+    "jsfiddle": "http://jsfiddle.net/At2vq/2/",
     "files": [
         "boxoverlays.js"
     ]
